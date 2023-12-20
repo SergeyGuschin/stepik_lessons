@@ -1,2 +1,2 @@
 # stepik_lessons
-My stepik lessons python automation
+Репозиторий для хранения домашних работ по курсу автоматизации тестирования на Stepik
