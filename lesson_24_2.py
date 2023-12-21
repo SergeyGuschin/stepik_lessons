@@ -9,7 +9,7 @@ from selenium.webdriver.support import expected_conditions as EC
 browser = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
 link = "http://suninjuly.github.io/explicit_wait2.html"
 
-
+#test pro
 def calc(x):
     return str(math.log(abs(12 * math.sin(int(x)))))
 
