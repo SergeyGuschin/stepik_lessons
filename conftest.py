@@ -4,7 +4,7 @@ from selenium.webdriver.firefox.options import Options as OptionsFirefox
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.chrome.options import Options
 
-# Chrome options
+# Chrome options тест
 options = Options()
 # options.add_experimental_option('prefs', {'intl.accept_languages': 'en,en_US'})
 options.add_argument(f"--lang={user_language}")
