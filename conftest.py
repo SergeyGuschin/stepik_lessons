@@ -24,7 +24,7 @@ def browser(request):
 
     # Firefox options and service
     # Опции для Firefox модифицированны так чтобы браузер смог запускаться на Ubuntu где стоит snap программа.
-    # !!!!!!!!!!!!!!!! Внимание запуск Firefox скорее всего не будет работать в Windows and MacOS !!!!!!!!!!!!!!!!!!!
+    # !!!!!!!!!!!!!!!! Внимание запуск Firefox скорее всего не будет работать в Windows and MacOS !!!!!!!!!!!!!!!!!!
     options_firefox = OptionsFirefox()
     options_firefox.set_preference("intl.accept_languages", user_language)
     service = Service(executable_path="/snap/bin/firefox.geckodriver")

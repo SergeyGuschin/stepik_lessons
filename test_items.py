@@ -11,4 +11,5 @@ def test_add_to_cart_button_is_present(browser):
     # time.sleep(30)
     button = browser.find_element(By.CSS_SELECTOR, ".btn.btn-lg.btn-primary")
     assert button.is_displayed(), "Кнопка не найдена на странице"
-    time.sleep(3)
+
+
